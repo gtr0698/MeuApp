@@ -1,0 +1,11 @@
+create table tb_aluno (
+	id integer PRIMARY KEY NOT NULL auto_increment,
+    nome varchar(255),
+    registro varchar(255),
+    dtnascimento varchar(255),
+    ingresso varchar(255)
+);
+
+insert into tb_aluno (nome, registro, dtnascimento, ingresso) values ('guilherme', '1234', '01061998', '2019');
+
+select * from tb_aluno;
