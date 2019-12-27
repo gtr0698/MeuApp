@@ -14,4 +14,6 @@ $stmt = $conn->prepare($sql);
 
 $stmt->execute();
 
+header("location: /teste/tabelasalunos.php");
+
 ?>

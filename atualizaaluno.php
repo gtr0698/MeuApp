@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cadastra de Aluno</title>
+		<title>Atualiza Aluno</title>
 		<meta charset="utf-8">
 
 
@@ -17,7 +17,7 @@
 	</head>
 	<body>
 
-		<h1>Cadastro de Aluno</h1>
+		<h1>Atualiza Aluno</h1>
 
 		<form action="/teste/insere_aluno.php" method="post">
 		  <div class="form-group col-md-6">
