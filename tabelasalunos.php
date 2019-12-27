@@ -64,7 +64,7 @@
           <td><?php echo $resp[$i]['registro'];?></td>
           <td><?php echo $resp[$i]['dtnascimento'];?></td>
           <td><?php echo $resp[$i]['ingresso'];?></td>
-          <td><a class="btn btn-success" href="/teste/atualizaaluno.php" role="button">Atualizar</a></td>
+          <td><a class="btn btn-success" href="/teste/atualizaaluno.php?id=<?php echo $resp[$i]['id'];?>" role="button">Atualizar</a></td>
         </tr>
         <?php }?>
 
