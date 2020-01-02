@@ -65,6 +65,7 @@
           <td><?php echo $resp[$i]['dtnascimento'];?></td>
           <td><?php echo $resp[$i]['ingresso'];?></td>
           <td><a class="btn btn-success" href="/teste/atualizaaluno.php?id=<?php echo $resp[$i]['id'];?>" role="button">Atualizar</a></td>
+          <td><a class="btn btn-danger" href="/teste/deletaaluno.php?id=<?php echo $resp[$i]['id'];?>" role="button">Deletar</a></td>
         </tr>
         <?php }?>
 
